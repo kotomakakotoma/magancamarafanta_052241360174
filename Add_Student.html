@@ -1,0 +1,117 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>admin</title>
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet"   type="text/css" href="admin.css">
+   <style>
+    .form{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+ }
+
+ .int{
+    width: 30%;
+    height: 40px;
+    border-radius: 25px ;
+    border: 1 px solid rgb(91, 12, 219);
+}
+.divv{
+    padding-top: 10px;
+}
+
+.intt{
+position: relative;
+width: 15%;
+left: 5%;
+}
+
+.int
+{
+    background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+}
+</style>
+
+</head>
+<body>
+<header class="her">
+   <a href="">Admin Dushbord</a>
+   <div class="logout">
+      <a href="login.html">logout</a>
+   </div>
+</header>
+<aside>
+   <ul>
+      <li>
+       <a href="admission.html">Admission</a>
+      </li>
+      <li>
+       <a href="Add_Student.html">Add Student</a>
+      </li>
+      <li>
+       <a href=""> view student</a>
+      </li>
+      <li>
+       <a href="">add teacher</a>
+      </li>
+      <li>
+       <a href="">view teacher</a>
+      </li>
+      <li>
+       <a href=""> add courses</a>
+      </li>
+      <li>
+       <a href="">view courses</a>
+      </li>
+   </ul>
+</aside>
+<center>
+    <h2>Add Student<h2>
+    <div align="center" >
+  <form action="data_check.html"  method="POST">
+<div class="divv">
+  <label  class="form">Name</label>
+  <input class="int" type"text"required=""  name="Name">
+</div>
+<div class="divv">
+  <label class="form" >phone</label>
+  <input class="int" type"text" required="" name=" phone">
+</div>
+<div class="divv">
+  <label  class="form">Email</label>
+  <input class="int" type"text" required="" name="Email">
+</div>
+<div  class="divv">
+  <label  class="form">Message</label>
+  <textarea class="text" required="" name="Message"></textarea>
+</div>
+
+<div>
+  <input class="btn btn-primary" class="intt" type="Submit" value="apply" name="apply">
+</div>
+
+
+  
+</form>
+</div>
+
+
+</center>
+</body>
+</html>

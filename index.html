@@ -1,0 +1,142 @@
+<?php
+  error_reporting(0);
+  session_start();
+  session_destroy();
+
+  if($_SESSION['message'])
+    {
+      $message=$message=$_SESSION['message'];
+      echo "<script type='text/javascript'>
+      alert('$message'); 
+        </script>";
+    }
+?>
+<!DOCTYPE html>
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet"   type="text/css" href="style.css">
+<title>school web</title>
+
+</head>
+<body>
+<nav>
+  <label class="la"> KUMASI INFOTECH </label>  
+   
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="faculty.html">Faculty</a></li>
+    <li><a href="departments.html">Departments</a></li>
+    <li><a href="timetables.html">Timetables</a></li>
+    <li><a href="registrations.html">Registrations</a></li>
+    <li><a href="payments.html">Payments</a></li>
+    <li><a href="login.html" class="btn btn-primary" style="background:green;">Login</a></li>
+    
+</ul>
+</nav>
+<div class="section"> 
+  <img src="image/Berry-College-in-Rome-Georgia.jpg" width=100%; height=400px;>
+</div>
+<div class="div1">
+<div class="div">
+<div class="cla">
+  <img class="div2" src="image/tallahassee-memorial-healthcare-hospital-drone-061893276_prevstill.webp"; width=100px; height=300px; style="display: block; margin: auto; border:1px solid white; border-radius:1rem;">
+  welcome to our school
+</div>
+<div class="cla"> 
+  <img class="div2" src="image/07a09d29-b98e-d0c1-4248-7e9ca4d233a8.jpg" width=100px; height=300px; style="display: block; margin: auto; border:1px solid white; border-radius:1rem;">
+  welcome to our school
+</div>
+<div class="cla">
+  <img class="div2" src="image/Outpatient-cancer-center-exterior-rendering.jpg" width=100px; height=300px; style="display: block; margin: auto; border:1px solid white; border-radius:1rem;">
+  welcome to our school
+</div>
+<div class="cla">
+  <img class="div2" src="image/maxresdefault.jpg" width=100px; height=300px; style="display: block; margin: auto; border:1px solid white; border-radius:1rem;">
+  welcome to our school
+</div>
+</div>
+</div>
+ <center> <h2>Our Courses</h2> </center>
+
+<div class="div1">
+<div class="div">
+<div class="cla">
+  <img class="div2" src="image/Online-english-classes-1024x1024.jpg"; width=100px; height=400px; style="display: block; margin: auto; border:1px solid white; border-radius:1rem;">
+  <h3>English</h3>
+</div>
+<div class="cla"> 
+  <img class="div2" src="image/104284409.png" width=100px; height=400px; style="display: block; margin: auto; border:1px solid white; border-radius:rem;">
+  <h3>Mathematics</h3>
+</div>
+<div class="cla">
+  <img class="div2" src="image/after-chemistry-then-what-great-upper-hs-science-courses-from-tps.webp" width=100px; height=300px; style="display: block; margin: auto; border:1px solid white; border-radius:1rem;">
+  <h3>Science</h3>
+</div>
+<div class="cla">
+  <img class="div2" src="image/chemistry-800x500.jpg" width=100px; height=300px; style="display: block; margin: auto; border:1px solid white; border-radius:1rem;">
+  <h3>Medicine</h3>
+</div>
+</div>
+</div>
+<center>admission Form</center>
+<div align="center" >
+  <form action="data_check.php"  method="POST">
+<div class="divv">
+  <label  class="form">Name</label>
+  <input class="int" type"text"required=""  name="Name">
+</div>
+<div class="divv">
+  <label class="form" >phone</label>
+  <input class="int" type"text" required="" name=" phone">
+</div>
+<div class="divv">
+  <label  class="form">Email</label>
+  <input class="int" type"text" required="" name="Email">
+</div>
+<div  class="divv">
+  <label  class="form">Message</label>
+  <textarea class="text" required="" name="Message"></textarea>
+</div>
+
+<div>
+  <input class="btn btn-primary" class="intt" type="Submit" value="apply" name="apply">
+</div>
+
+
+  
+</form>
+</div>
+
+</body>
+  </br>
+  </br>
+  </br>
+   </br>
+  </br>
+  </br>
+<footer class="footer">
+        <p>&copy; 2024 KUMASI INFOTECH . All rights reserved.</p>
+        <div class="foo">
+        <div>
+        <a href="https://www.google.com/"><img src="Icons/google-icon-2048x2048-czn3g8x8.png" width="50px" height="50px"></a>
+    </div>
+    <div>
+        <a href="https://www.whatsapp.com/"><img src="Icons/WhatsApp_icon.png" width="50px" height="50px"></a>
+    </div>
+    <div>
+        <a href="https://www.facebook.com/"><img src="Icons/facebook-icon-512x512-seb542ju.png" width="50px" height="50px"></a>
+    </div>
+    <div>
+        <a href="https://www.youtube.com"><img src="Icons/1384060.png" width="50px" height="50px"></a>
+    </div>
+</div>
+
+    </footer>
+</html>

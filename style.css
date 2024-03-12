@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: fixed;
+    background-color:  #3498db;
+    width: 100%;
+    height: 100px;
+}
+ul{
+   position: relative;
+   float: right;
+   margin-right: 20px;
+}
+
+.la{
+    font-size: 20px;
+    position: relative;
+    line-height:60px;
+    left: 5%;
+    color:white
+}
+ul li {
+     display: inline-block;
+     line-height: 70px;
+     margin: 0 5px;
+}
+
+ul li a {
+    font-size: 20px;
+    color:white;
+}
+.section{
+    padding-top: 10px;
+}
+
+.div1{
+    padding-top: 60px;
+
+    
+    
+}
+.div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    width: 90%;
+    height: 200px;
+    border:1px solid green; 
+    border-radius:1rem;
+    m
+
+}
+.cla{
+    border:0px solid ; 
+    border-radius:1rem;
+    margin: 20px;
+}
+.form{
+   display: inline-block;
+   width: 100px;
+   text-align: right;
+   padding-right: 10px;
+}
+.int{
+    width: 30%;
+    height: 40px;
+    border-radius: 25px ;
+    border: 1 px solid rgb(91, 12, 219);
+}
+.divv{
+    padding-top: 10px;
+}
+.text{
+    width: 30%;
+    height: 100px;
+    border-radius: 25px ;
+    border: 1 px solid blue;
+}
+.intt{
+position: relative;
+width: 15%;
+left: 5%;
+}
+.for_go{ 
+    margin-top: 200px;
+
+}
+.int
+{
+    background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+}
+.footer {
+    background-color:  #007BFF;
+
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: ;
+    bottom: 0;
+    width: 100%;
+}
+.foo{
+    display: flex;
+    column-gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.label
+{
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
